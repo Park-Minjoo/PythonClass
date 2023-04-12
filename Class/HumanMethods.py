@@ -12,3 +12,7 @@ class Human:
     def who(self):
         print("이름: {}, 나이: {}, 성별: {}".format(
             self.name, self.age, self.gender))
+
+
+Minjoo = Human("Minjoo", 25, "female")
+Minjoo.who()
