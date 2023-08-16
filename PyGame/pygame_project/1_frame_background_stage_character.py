@@ -49,11 +49,11 @@ while running:
 
     # 4. 충돌 처리
 
-    # 5. 화면에 그리기
+
     screen.blit(background, (0, 0))
     screen.blit(stage, (0, screen_height - stage_height))
     screen.blit(character, (character_x_pos, character_y_pos))
 
     pygame.display.update()
 
-pygame.quit()
+pygame.quit
